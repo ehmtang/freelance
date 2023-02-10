@@ -1,0 +1,12 @@
+Write an automated script (in Python) that takes CSV data and outputs a series of PDFs
+
+For a study I am running, I need to automate the production of a series of printable sheets.
+
+You will write a Python script that:
+1. Reads the data from "quality_game_inputs.csv"
+2. Uses that data to output 1 Word file or PDF or otherwise printable file.
+- In this file, each page will be the same format as the "example_sheet.docx".
+- For each row in the dataset, the script should output a page in the same format but with the relevant data filled in. The example_sheet uses the data from row 127 of the CSV file.
+- For the pictures, I have attached "item_pictures.zip" which contains images for 9 different items. In the items column of the "quality_game_inputs.csv" file, it lists the multiple items that should be displayed for each sheet. For example, on row 127, it says "5, 6, 4". This means that the image files "qg_item_5.jpeg" is shown first, then "qg_item_6.jpeg", then "qg_item_4.jpeg". For other sheets, the item pictures should be shown analogously.
+
+The Python script should be easily readable and editable so that I can personally edit any details if they change in subsequent iterations of the project.
