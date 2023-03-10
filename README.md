@@ -1,3 +1,3 @@
-# freelance
+# Freelance
 
-Contains code used for freelance work
+Repository contains code written for short-term freelance work.
